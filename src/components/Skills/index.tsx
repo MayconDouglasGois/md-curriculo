@@ -6,6 +6,7 @@ import "./style.scss";
 
 const Skills = () => {
 
+
     const skills = [
         {
           liguagem: "HTML5",
@@ -46,7 +47,7 @@ const Skills = () => {
 
         <div className='barraNivel' style={{width:'10rem'}}>
 
-            <div className='MarcadorNivel'  style={{width:2*item.nivel+'rem'}}>
+            <div className='MarcadorNivel' style={{width:2*item.nivel+'rem'}}>
             </div>
 
         </div>

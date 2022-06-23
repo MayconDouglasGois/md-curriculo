@@ -11,5 +11,14 @@ border-radius: 0.5rem;
 .MarcadorNivel{
     height: 1rem;
     background-color: var(--blue-500);
-    border-radius: 0.5rem;  
+    border-radius: 0.5rem;
+
+    animation-name: skills;
+    animation-duration: 1.5s;
 }
+
+@keyframes skills {
+    from{
+        width: 0rem;
+    }
+   }

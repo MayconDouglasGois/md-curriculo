@@ -3,6 +3,7 @@ import "./style.scss";
 import { MdEmail } from "react-icons/md";
 import { BsFillHouseFill } from "react-icons/bs";
 import { IoLogoWhatsapp, IoLogoLinkedin, IoLogoGithub } from "react-icons/io";
+import {IoIosBook} from 'react-icons/io'
 import Skills from "../Skills";
 
 interface IdadosPessoais {
@@ -84,7 +85,24 @@ const Body = () => {
           </p>
         </div>
         <div>
-          <h1>HABILIDADES</h1>
+        <h1>FORMAÇÃO</h1>
+        <p><IoIosBook/> Ensino Médio - Centro de Educação Integrada Professor Eliseu Viana - 2013 / 2016</p>
+        <p><IoIosBook/> Ensino Superior - Ciência e Tecnologia - UNIVERSIDADE FEDERAL RURAL DO SEMI-ÁRIDO - 2017 - Cursando</p>
+        </div>
+        <div>
+          <h1>EXPERIÊNCIAS</h1>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore
+            eius doloremque, consequatur ducimus velit atque architecto, quas
+            fugiat voluptatibus voluptates soluta. Unde animi, obcaecati facilis
+            praesentium consectetur accusamus sequi optio?
+          </p>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore
+            eius doloremque, consequatur ducimus velit atque architecto, quas
+            fugiat voluptatibus voluptates soluta. Unde animi, obcaecati facilis
+            praesentium consectetur accusamus sequi optio?
+          </p>
           <p>
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore
             eius doloremque, consequatur ducimus velit atque architecto, quas
