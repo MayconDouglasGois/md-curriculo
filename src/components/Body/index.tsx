@@ -126,9 +126,8 @@ const Body = () => {
           </p>
           <h2><FaSatelliteDish/> TI - PROSAT Rastreamento (2020 - atual)</h2>
           <p>
-                migrei de função e atuo como TI. Trabalho com configurando os
-            rastreadores e periféricos para a instalação, com Desenvolvimento de
-            soluções de telemetria e IoT e com analise e resolução de problemas.
+                Migrei de função e atuo como TI. Trabalho configurando rastreadores e periféricos para a instalação, com Desenvolvimento de
+            soluções de telemetria & IoT e com analise e resolução de problemas.
           </p>
         </div>
         <div>
