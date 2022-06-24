@@ -13,7 +13,7 @@ const anoAtual = dataAtual. getFullYear();
     <footer className='footer'>
     <div className='footer-content'>
 
-      <span>© Copyright 2001-{anoAtual} - All Rights Reserved</span>
+      <span>© Copyright 2022-{anoAtual} - All Rights Reserved</span>
     </div>
     </footer>
   )

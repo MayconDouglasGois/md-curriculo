@@ -1,10 +1,21 @@
 import React from "react";
 import "./style.scss";
+
+
 import { MdEmail } from "react-icons/md";
-import { BsFillHouseFill } from "react-icons/bs";
+import { BsFillHouseFill, BsHeadset } from "react-icons/bs";
 import { IoLogoWhatsapp, IoLogoLinkedin, IoLogoGithub } from "react-icons/io";
-import {IoIosBook} from 'react-icons/io'
+import { IoIosBook } from "react-icons/io";
+import {MdOutlineScreenSearchDesktop} from "react-icons/md"
+import {FaSatelliteDish} from "react-icons/fa"
+
+
 import Skills from "../Skills";
+
+
+
+
+
 
 interface IdadosPessoais {
   endereco: string;
@@ -14,6 +25,10 @@ interface IdadosPessoais {
   github: string;
 }
 
+
+
+
+
 const Body = () => {
   const dadosPessoais: IdadosPessoais = {
     endereco: "Rua Maria Inacia do Nascimento, 59600-990 Mossoró/RN",
@@ -22,7 +37,6 @@ const Body = () => {
     likendin: "www.linkedin.com/in/maycon-douglas-8a36a11a2",
     github: "https://github.com/MayconDouglasGois",
   };
-
 
   return (
     <main>
@@ -42,7 +56,12 @@ const Body = () => {
             </li>
             <li>
               <IoLogoWhatsapp />
-              <a href={"tel:+" + dadosPessoais.tel}></a> {dadosPessoais.tel}
+              <a href={"https://wa.me/" + dadosPessoais.tel} 
+              target="_blank"
+              rel="noopener noreferrer"
+              >
+                {dadosPessoais.tel}
+                </a> 
             </li>
             <li>
               <IoLogoLinkedin />
@@ -70,12 +89,12 @@ const Body = () => {
         </div>
         <div>
           <h1>SKILS</h1>
-          <Skills/>
+          <Skills />
         </div>
       </section>
 
       <section className="colum-2">
-      <div>
+        <div>
           <h1>PERFIL PESSOAL</h1>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut placeat
@@ -85,29 +104,31 @@ const Body = () => {
           </p>
         </div>
         <div>
-        <h1>FORMAÇÃO</h1>
-        <p><IoIosBook/> Ensino Médio - Centro de Educação Integrada Professor Eliseu Viana - 2013 / 2016</p>
-        <p><IoIosBook/> Ensino Superior - Ciência e Tecnologia - UNIVERSIDADE FEDERAL RURAL DO SEMI-ÁRIDO - 2017 - Cursando</p>
+          <h1>FORMAÇÃO</h1>
+          <p>
+            <IoIosBook /> Ensino Médio - Centro de Educação Integrada Professor
+            Eliseu Viana - 2013 / 2016
+          </p>
+          <p>
+            <IoIosBook /> Ensino Superior - Ciência e Tecnologia - UNIVERSIDADE
+            FEDERAL RURAL DO SEMI-ÁRIDO - 2017 - Cursando
+          </p>
         </div>
         <div>
           <h1>EXPERIÊNCIAS</h1>
+          <h2><BsHeadset/> Atendente de Telemarketing – AeC Mossoró/RN (2018 - 2018)</h2>
+          <p>   Durante o período tive experiencia com atendimento ao cliente.</p>
+          <h2><MdOutlineScreenSearchDesktop/> Suporte Operacional - PROSAT Rastreamento (2020 - 2020)</h2>
           <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore
-            eius doloremque, consequatur ducimus velit atque architecto, quas
-            fugiat voluptatibus voluptates soluta. Unde animi, obcaecati facilis
-            praesentium consectetur accusamus sequi optio?
+                Durante esse período trabalhei com atendimento, suporte ao cliente
+            (PF e PJ), com logística para agendamentos e tratativas de serviços
+            técnicos.
           </p>
+          <h2><FaSatelliteDish/> TI - PROSAT Rastreamento (2020 - atual)</h2>
           <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore
-            eius doloremque, consequatur ducimus velit atque architecto, quas
-            fugiat voluptatibus voluptates soluta. Unde animi, obcaecati facilis
-            praesentium consectetur accusamus sequi optio?
-          </p>
-          <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore
-            eius doloremque, consequatur ducimus velit atque architecto, quas
-            fugiat voluptatibus voluptates soluta. Unde animi, obcaecati facilis
-            praesentium consectetur accusamus sequi optio?
+                migrei de função e atuo como TI. Trabalho com configurando os
+            rastreadores e periféricos para a instalação, com Desenvolvimento de
+            soluções de telemetria e IoT e com analise e resolução de problemas.
           </p>
         </div>
         <div>
