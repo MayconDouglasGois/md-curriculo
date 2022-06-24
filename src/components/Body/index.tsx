@@ -3,8 +3,8 @@ import "./style.scss";
 
 
 import { MdEmail } from "react-icons/md";
-import { BsFillHouseFill, BsHeadset } from "react-icons/bs";
-import { IoLogoWhatsapp, IoLogoLinkedin, IoLogoGithub } from "react-icons/io";
+import { BsFillHouseFill, BsHeadset, BsTelephoneFill } from "react-icons/bs";
+import { IoLogoLinkedin, IoLogoGithub } from "react-icons/io";
 import { IoIosBook } from "react-icons/io";
 import {MdOutlineScreenSearchDesktop} from "react-icons/md"
 import {FaSatelliteDish} from "react-icons/fa"
@@ -33,7 +33,7 @@ const Body = () => {
   const dadosPessoais: IdadosPessoais = {
     endereco: "Rua Maria Inacia do Nascimento, 59600-990 Mossoró/RN",
     email: "may2dgoiis@gmail.com",
-    tel: 55849999073399,
+    tel: 5584999073399,
     likendin: "www.linkedin.com/in/maycon-douglas-8a36a11a2",
     github: "https://github.com/MayconDouglasGois",
   };
@@ -55,11 +55,12 @@ const Body = () => {
               </a>
             </li>
             <li>
-              <IoLogoWhatsapp />
-              <a href={"https://wa.me/" + dadosPessoais.tel} 
+              <BsTelephoneFill />
+              <a href={"tel:" + dadosPessoais.tel} 
               target="_blank"
               rel="noopener noreferrer"
               >
+                {" "}
                 {dadosPessoais.tel}
                 </a> 
             </li>

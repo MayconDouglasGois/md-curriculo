@@ -1,0 +1,23 @@
+
+
+.wpp{
+    color: #ffffff;
+    background-color: #45be55;
+
+
+    position: fixed;
+    bottom: 1rem;
+    right: 1rem;
+   
+    padding: .8rem 1.8rem;
+
+    border-radius: 1.8rem 0 2rem 1.8rem;
+    font-size: .8rem;
+
+    transition: .2s filter;
+
+    &:hover{
+        filter: contrast(86%)
+    }
+}
+
