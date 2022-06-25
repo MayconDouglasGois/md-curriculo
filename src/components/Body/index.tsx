@@ -2,12 +2,11 @@ import React from "react";
 import "./style.scss";
 
 
-import { MdEmail } from "react-icons/md";
-import { BsFillHouseFill, BsHeadset, BsTelephoneFill } from "react-icons/bs";
-import { IoLogoLinkedin, IoLogoGithub } from "react-icons/io";
-import { IoIosBook } from "react-icons/io";
-import {MdOutlineScreenSearchDesktop} from "react-icons/md"
-import {FaSatelliteDish} from "react-icons/fa"
+import { BsFillHouseFill, BsHeadset, BsTelephoneFill, BsLink45Deg } from "react-icons/bs";
+import { IoLogoLinkedin, IoLogoGithub, IoIosBook  } from "react-icons/io";
+import {MdOutlineScreenSearchDesktop, MdEmail} from "react-icons/md"
+import {FaSatelliteDish, FaDatabase, FaCode} from "react-icons/fa"
+import {SiReact, SiNextdotjs, SiSass, SiTypescript,SiStripe} from 'react-icons/si'
 
 
 import Skills from "../Skills";
@@ -124,18 +123,23 @@ const Body = () => {
         </div>
         <div>
           <h1>PROJETOS</h1>
-          <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Error quae
-            enim recusandae, voluptatem esse facere pariatur tempora accusamus
-            ex placeat atque illo praesentium itaque commodi ab tenetur
-            quibusdam ipsam dicta.
-          </p>
-          <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-            Perferendis, sint nemo adipisci repellat ab, deserunt quos
-            recusandae rerum necessitatibus doloremque blanditiis laboriosam
-            quasi animi maiores labore molestiae consequuntur dolorum quo!
-          </p>
+          
+          <a href="https://md-commerce.vercel.app/"
+          target="_blank"
+          rel="noopener noreferrer">
+<h2 className="link"><BsLink45Deg/>md-commerce</h2>
+            </a>
+          <p>Projeto de E-commerce usando o stripe para cadastro e pagamentos. Usando o Next Auth para trabalhar com login e o faunaDB para armazenamento. Projeto consiste em 3 páginas, uma para os produtos, outra com o carrinho e uma com o histórico de compras. </p>
+          <ul>
+            <li><SiReact/> - React</li>
+            <li><SiNextdotjs/> - Next</li>
+            <li><SiSass/> - Sass</li>
+            <li><SiTypescript/> - Typescript</li>
+            <li><SiStripe/> - Api Stripe</li>
+            <li><FaDatabase/> - FaunaDB</li>
+
+          </ul>
+          
         </div>
       </section>
     </main>

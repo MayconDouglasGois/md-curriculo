@@ -48,10 +48,14 @@ section{
         transition: .2s color;
         
     }
-  
 
-    
-    
+}
+.link{
+    transition: color 0.2s;
+
+    &:hover{
+        color: var(--blue-500);
+       }
 }
 
 .contatos{
