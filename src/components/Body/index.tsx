@@ -96,15 +96,6 @@ const Body = () => {
 
       <section className="colum-2">
         <div>
-          <h1>PERFIL PESSOAL</h1>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut placeat
-            doloremque dolorum nostrum dolor ipsum minima nobis reprehenderit
-            eligendi maxime voluptatum voluptas explicabo eos aut, dolores earum
-            quidem assumenda ipsam!
-          </p>
-        </div>
-        <div>
           <h1>FORMAÇÃO</h1>
           <p>
             <IoIosBook /> Ensino Médio - Centro de Educação Integrada Professor
