@@ -6,12 +6,18 @@
 
 .footer-content{
     display: flex;
-    justify-content: center;
-    align-items: flex-end;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
 
     background-color: rgb(26, 22, 22);
     margin: auto;
     height: 8rem; 
     max-width: 1080px;
     box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.322);
+
+    a{
+        padding-top: 3rem;
+        display: block;
+    }
 }
